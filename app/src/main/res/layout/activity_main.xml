@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lee.retrofittotask.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Task_name"
+        android:ems="10"
+        tools:layout_editor_absoluteY="49dp"
+        tools:layout_editor_absoluteX="82dp"
+        android:id="@+id/editText1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Task_desc"
+        android:ems="10"
+        tools:layout_editor_absoluteY="180dp"
+        tools:layout_editor_absoluteX="82dp"
+        android:id="@+id/editText2"/>
+
+    <Button
+        android:text="上傳"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="298dp"
+        tools:layout_editor_absoluteX="145dp"
+        android:id="@+id/button"/>
+
+    <TextView
+        android:text="狀態"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="391dp"
+        tools:layout_editor_absoluteX="165dp"
+        android:id="@+id/textView"/>
+</LinearLayout>
